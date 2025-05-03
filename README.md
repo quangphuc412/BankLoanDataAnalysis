@@ -22,23 +22,26 @@ This repository contains code and analysis for bank loan data. The analysis is d
 Bank loans are a crucial financial tool that enables individuals and businesses to achieve their goals and manage financial needs. However, it's essential for borrowers to understand the terms, costs, and responsibilities associated with loans to make informed financial decisions.
 
 This project dives deep into analyzing bank loan data to uncover important insights that support better decision-making for stakeholders. We have extracted critical aspects from the data such as:
-    - Total loan applications.
-    - Total loan amounts disbursed.
-    - Total amounts received. (Including interest payments)
+   
+   - Total loan applications.
+   - Total loan amounts disbursed.
+   - Total amounts received. (Including interest payments)
 
 Furthermore, we classify loans into two major categories:
-    - **Good Loans**: Fully paid or current loans, indicating healthy repayment behavior.
-    - **Bad Loans**: Loans with missed or overdue payments, potentially indicating default risk.
+   
+   - **Good Loans**: Fully paid or current loans, indicating healthy repayment behavior.
+   - **Bad Loans**: Loans with missed or overdue payments, potentially indicating default risk.
 
 This classification provides a nuanced understanding of loan performance and helps in risk assessment.
 
 We have analyzed various dimensions of the dataset, including:
-    - **Loan purpose**.
-    - **Loan terms**.
-    - **Home ownership status**.
-    - **Employment details**. (Length and title)
-    - **Regional trends**. (Based on address state)
-    - **Debt-to-Income(DTI) ratios**.
+    
+   - **Loan purpose**.
+   - **Loan terms**.
+   - **Home ownership status**.
+   - **Employment details**. (Length and title)
+   - **Regional trends**. (Based on address state)
+   - **Debt-to-Income(DTI) ratios**.
 
 By dissecting these elements, the project reveals patterns, trends, and correlations within the loan portfolio—facilitating informed decisions and strategic planning for banks and financial institutions.
 
@@ -52,7 +55,7 @@ By dissecting these elements, the project reveals patterns, trends, and correlat
 By visualizing these insights, stakeholders—including data analysts, loan officers, and risk managers—can make more informed decisions, **optimize lending strategies**, mitigate risk, and enhance the overall **health of the loan portfolio**.
 
 ## 🚀 Getting Started - Data Analysis
-[Data Analysis](Data_Analysis.ipynb)
+[Data Analysis file](Data_Analysis.ipynb)
 ### 📦 Importing Necessary Libraries
 In this section, we import the required Python libraries to perform data analysis and visualization, including `pandas`, `numpy`, `matplotlib`, and `seaborn`.
 
@@ -101,7 +104,7 @@ EDA is the heart of this project. It includes comprehensive visualizations and s
 3. **Correlation analysis:** DTI, Interest Rate, Annual Income vs Loan Status.
 
 ## 🤖 Build Credit Risk Prediction - Machine Learning
-[Credit Risk Prediction Maching Learning](CreditRiskPredictionML.ipynb)
+[Credit Risk Prediction - Maching Learning file](CreditRiskPredictionML.ipynb)
 ### 📦 Importing Necessary Libraries
 In this section, we import the required Python libraries, including `pandas`, `numpy`, `sklearn`, `matplotlib`, and `seaborn`.
 
@@ -121,12 +124,13 @@ In this section, we import the required Python libraries, including `pandas`, `n
 
 
 ## 📈 Visualization
-- **Streamlit App:** Visual interface, data entry, risk probability prediction.
+### Streamlit App
+- Visual interface, data entry, risk probability prediction.
 ![app01](./image/web_application_01.png)
 ![app02](./image/web_application_02.png)
 ![app03](./image/web_application_03.png)
 
-- **Power BI Dashboard:**
+### Power BI Dashboard
 - **Summary Dashboard**
   - Key Performance Indicators(KPIs). 
   - Good vs. Bad loan classification.
@@ -147,4 +151,5 @@ In this section, we import the required Python libraries, including `pandas`, `n
 For questions or suggestions, reach out via nguyenquangphuc412@gmail.com 
 
 📅 Updated date: 02-05-2025
+
 Thank you for visiting this project! ⭐
